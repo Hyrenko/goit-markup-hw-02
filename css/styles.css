@@ -1,0 +1,98 @@
+:root {
+    --color-prymal: #F5F5F5;
+    --color-text: #757575;
+    --color-footer: #2F303A;
+
+}
+
+header {
+background-color: #FFFFFF;
+font-size: 14px;
+font-weight: 500;
+line-height: 1,2;
+color: #212121;;
+}
+
+body {
+    color: var(--color-text);
+    background-color: var(--color-prymal);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1,5;
+}
+
+.list {
+    list-style: none;
+}
+/* sait-nav */
+.sait-nav{
+    background-color: #FFFFFF;}
+.sait-nav a {
+    color: #2F303A21;
+}
+.sait-nav a :hover, :focus {
+    color: #2196F3;
+}
+
+.button :hover, :focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+
+
+/* Hero */
+.hero-title {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1,3;
+    color: #FFFFFF;
+    
+}
+
+.hero {
+    color: #FFFFFF;
+    background: #2F303A;}
+
+.section-title {
+font-size: 36px;
+font-weight: 700;
+line-height: 1,2;
+color: #212121
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1,2;
+    color: #212121;
+}
+   
+.team {
+    background-color: #F5F4FA;
+
+}
+
+.team-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    color: #212121;
+}
+
+.portfolio-title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1, 2;
+    color: #212121
+}
+
+.page-footer {
+    color: #FFFFFF;
+    background-color: #2F303A;
+font-size: 14;
+}
+
+
+
