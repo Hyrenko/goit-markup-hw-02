@@ -164,6 +164,12 @@ text-align: center;
     font-size: 14;
 }
 
+.address {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
 
 
 
