@@ -2,15 +2,17 @@
     --color-prymal: #F5F5F5;
     --color-text: #757575;
     --color-footer: #2F303A;
+    --color-black: #212121;
+    --color-accent: #2196F3;
+    }
 
-}
 
 header {
-background-color: #FFFFFF;
+background-color: var(--color-prymal);
 font-size: 14px;
 font-weight: 500;
-line-height: 1,2;
-color: #212121;;
+line-height: 1.2;
+color: var(--color-black)
 }
 
 body {
@@ -19,25 +21,43 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 1,5;
+    line-height: 1.5;}
+
+.list{
+list-style: none;
+}
+   
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.3;
+    width: 145px;
+    top: 24px;
+    color: #000000;
+    text-decoration: none;
 }
 
-.list {
-    list-style: none;
+.logo-text {
+    color: var(--color-accent);
 }
+
 /* sait-nav */
 .sait-nav{
-    background-color: #FFFFFF;}
-.sait-nav a {
+    background-color: var(--color-prymal)}
+
+    .sait-nav a {
     color: #2F303A21;
 }
+
 .sait-nav a :hover, :focus {
-    color: #2196F3;
+    color: var(--color-accent)F3;
 }
 
 .button :hover, :focus {
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--color-accent);
+    color: var(--color-prymal)
 }
 
 
@@ -46,28 +66,41 @@ body {
 .hero-title {
     font-size: 44px;
     font-weight: 900;
-    line-height: 1,3;
-    color: #FFFFFF;
+    line-height: 1.3;
+    color: var(--color-prymal);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     
 }
 
 .hero {
-    color: #FFFFFF;
-    background: #2F303A;}
+    color: var(--color-prymal);
+    background-color: var(--color-footer);
+    line-height: 1.7;
+}
+
+.button-hero {
+background-color: var(--color-accent);
+color: var(--color-prymal);
+box-shadow: 0 4px 4px
+rgba(0, 0, 0, 4);
+
+}
 
 .section-title {
 font-size: 36px;
 font-weight: 700;
-line-height: 1,2;
-color: #212121
+line-height: 1.16;
+color: var(--color-black);
+text-align: center;
 }
 
 .title {
     font-size: 14px;
     font-weight: 700;
-    line-height: 1,2;
-    color: #212121;
-}
+    line-height: 1.14;
+    color: var(--color-black)}
    
 .team {
     background-color: #F5F4FA;
@@ -75,24 +108,56 @@ color: #212121
 }
 
 .team-title {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 2;
-    color: #212121;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.18;
+    color: var(--color-black)
 }
+
+.team-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.18;
+    color: var(--color-black)
+    }
 
 .portfolio-title {
     font-size: 16px;
     font-weight: 500;
-    line-height: 1, 2;
-    color: #212121
+    line-height: 1.2;
+    color: var(--color-black)
 }
 
-.page-footer {
-    color: #FFFFFF;
-    background-color: #2F303A;
-font-size: 14;
+.portfolio-title :hover,
+:focus {
+    background-color:var(--color-accent);
+    color: var(--color-prymal);
 }
+
+.portfolio-button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    color: var(--color-black)}
+
+    .portfolio-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.87;
+    color: var(--color-black)
+    }
+
+.footer-text {
+    color: var(--color-prymal);
+    }
+
+
+.page-footer {
+    color: var(--color-prymal);
+    background-color: #2F303A;
+    font-size: 14;
+}
+
 
 
 
