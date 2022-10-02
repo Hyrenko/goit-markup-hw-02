@@ -8,7 +8,7 @@
 
 
 header {
-background-color: var(--color-prymal);
+background-color: #FFFFFF;
 font-size: 14px;
 font-weight: 500;
 line-height: 1.2;
@@ -25,9 +25,9 @@ body {
 
 .list{
 list-style: none;
-}
-   
+} 
 
+ 
 .logo {
     font-family: "Raleway", sans-serif;
     font-size: 26px;
@@ -36,6 +36,7 @@ list-style: none;
     width: 145px;
     top: 24px;
     color: #000000;
+    cursor: default;
     text-decoration: none;
 }
 
@@ -43,15 +44,34 @@ list-style: none;
     color: var(--color-accent);
 }
 
+.address-header {
+    color: var(--color-text);
+    cursor: default;
+}
+
+.address-mail {
+    color: var(--color-accent);
+    cursor: default;
+}
+
+
 /* sait-nav */
 .sait-nav{
     background-color: var(--color-prymal)}
 
-    .sait-nav a {
-    color: #2F303A21;
+.nav-link {
+text-decoration: none;
+cursor: default;
 }
 
-.sait-nav a :hover, :focus {
+.sait-nav {
+    color: var(--color-black);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    }
+
+.sait-nav :hover, :focus {
     color: var(--color-accent)F3;
 }
 
@@ -59,8 +79,6 @@ list-style: none;
     background-color: var(--color-accent);
     color: var(--color-prymal)
 }
-
-
 
 /* Hero */
 .hero-title {
@@ -84,10 +102,15 @@ list-style: none;
 background-color: var(--color-accent);
 color: var(--color-prymal);
 box-shadow: 0 4px 4px;
+border-radius: 4px;
+width: 216px;
+height: 50px;
+right: 692px;
+top: 430px;
 }
 
 .button-hero {
-    cursor: pointer;
+cursor: pointer;
 }
 
 .section-title {
@@ -120,13 +143,13 @@ text-align: center;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.18;
-    color: var(--color-black)
+    color: var(--color-text)
     }
 
 .portfolio-title {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.2;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
     color: var(--color-black)
 }
 
@@ -140,7 +163,8 @@ text-align: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.62;
-    color: var(--color-black)}
+    color: var(--color-black)
+}
 
     .portfolio-button {
         cursor: pointer;
@@ -150,7 +174,6 @@ text-align: center;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.87;
-    color: var(--color-black)
     }
 
 .footer-text {
@@ -162,12 +185,17 @@ text-align: center;
     color: var(--color-prymal);
     background-color: #2F303A;
     font-size: 14;
+    font-weight: 400;
+    line-height: 1.74;
+    font-family: 'Roboto';
 }
 
 .address {
     font-weight: 400;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    cursor: default;
 }
 
 
