@@ -21,7 +21,8 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 1.5;}
+    line-height: 1.5;
+    letter-spacing: 0.03em}
 
 .list{
 list-style: none;
@@ -104,12 +105,10 @@ color: var(--color-black);
 .button-hero {
 background-color: var(--color-accent);
 color: var(--color-prymal);
-box-shadow: 0 4px 4px;
-border-radius: 4px;
 font-family: "Roboto";
-font-size: 44px;
 font-weight: 900;
-line-height: 1.36;
+font-size: 44px;
+line-height: 1.36; 
 letter-spacing: 0.06em;
 }
 
@@ -154,6 +153,7 @@ text-align: center;
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
+    letter-spacing: 0.03em;
     color: var(--color-black)
 }
 
@@ -180,6 +180,7 @@ text-align: center;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.87;
+    letter-spacing: 0.03em;
     }
 
 .footer-text {
@@ -211,7 +212,6 @@ text-align: center;
     cursor: default;
     font-style: normal;
 }
-
 
 
 
