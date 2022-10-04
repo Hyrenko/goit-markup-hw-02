@@ -12,6 +12,7 @@ background-color: #FFFFFF;
 font-size: 14px;
 font-weight: 500;
 line-height: 1.2;
+letter-spacing: 0.03em;
 color: var(--color-black)
 }
 
@@ -49,12 +50,14 @@ list-style: none;
     color: var(--color-text);
     cursor: default;
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 
 .address-mail {
     color: var(--color-accent);
     cursor: default;
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 
 
@@ -120,6 +123,7 @@ cursor: pointer;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.16;
+letter-spacing: 0.03em;
 color: var(--color-black);
 text-align: center;
 }
@@ -128,6 +132,7 @@ text-align: center;
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
+    letter-spacing: 0.03em;
     color: var(--color-black)}
    
 .team {
@@ -139,6 +144,7 @@ text-align: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.18;
+    letter-spacing: 0.03em;
     color: var(--color-black)
 }
 
@@ -146,6 +152,7 @@ text-align: center;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.18;
+    letter-spacing: 0.03em;
     color: var(--color-text)
     }
 
@@ -185,6 +192,7 @@ text-align: center;
 
 .footer-text {
     color: var(--color-prymal);
+    letter-spacing: 0.03em;
     }
 
 
@@ -195,6 +203,7 @@ text-align: center;
     font-weight: 400;
     line-height: 1.74;
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
 }
 
 .text {
@@ -211,6 +220,7 @@ text-align: center;
     text-decoration: none;
     cursor: default;
     font-style: normal;
+    letter-spacing: 0.03em;
 }
 
 
